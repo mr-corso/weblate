@@ -41,16 +41,16 @@ DATABASES = {
         # Database name.
         "NAME": "weblate",
         # Database user.
-        "USER": "weblate",
+        "USER": os.environ['DB_USER'],
         # Name of role to alter to set parameters in PostgreSQL,
         # use in case role name is different than user used for authentication.
         # "ALTER_ROLE": "weblate",
         # Database password.
-        "PASSWORD": "",
+        "PASSWORD": os.environ['DB_PASSWORD'],
         # Set to empty string for localhost.
-        "HOST": "127.0.0.1",
+        "HOST": os.environ['DB_HOST'],
         # Set to empty string for default.
-        "PORT": "",
+        "PORT": os.environ['DB_PORT'],
         # Customizations for databases.
         "OPTIONS": {
             # In case of using an older MySQL server,
