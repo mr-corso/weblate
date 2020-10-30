@@ -39,7 +39,7 @@ DATABASES = {
         # Use "postgresql" or "mysql".
         "ENGINE": "django.db.backends.postgresql",
         # Database name.
-        "NAME": "weblate",
+        "NAME": os.environ['DB_NAME'],
         # Database user.
         "USER": os.environ['DB_USER'],
         # Name of role to alter to set parameters in PostgreSQL,
