@@ -4,7 +4,7 @@ libfreetype6-dev
 libjpeg-dev
 libz-dev
 libyaml-dev
-libcairo-dev
+#libcairo-dev
 gir1.2-pango-1.0
 libgirepository1.0-dev
 libacl1-dev
