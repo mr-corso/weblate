@@ -1,1 +1,7 @@
-libgirepository1.0-dev
+#libgirepository1.0-dev
+gobject-introspection
+libglib2.0-devel
+libpango1.0-devel
+python-cairo-devel
+python-gi
+python-gobject-devel
